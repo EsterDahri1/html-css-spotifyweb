@@ -5,3 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*UTILITIES*/
+
+.d-flex{
+    display: flex;
+}
+
+/*DEBUG*/
+
+.wrapper{
+    background-color: rgba(186, 43, 226, 0.509);
+}
+
+.left{
+    background-color: rgba(128, 128, 128, 0.53);
+    height: 1012px;
+}
+
+.right{
+    background-color: rgba(39, 157, 26, 0.53);
+}
+
+.footer_body{
+    background-color: rgba(28, 28, 28, 0.854);
+}
+
+/*Desktop first*/
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+#site_footer{
+    height: 5.5rem;
+    position:relative;
+}
+
+.footer_body{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.left{
+    width: 230px;
+}
+
+.right{
+    width: calc(100vw - 230px);
+    height: 100vh;
+}
