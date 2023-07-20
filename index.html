@@ -6,30 +6,36 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body class="debug">
+<body class="">
 
     <div class="wrapper">
         <main id="site_main" class="d-flex">
+
             <div id="sidebar" class="left d-flex f-column justify-between">
                 <div class="top">
-                    <img src="" alt="">
-                    <i class="fa"></i>
-                    <i class="fa"></i>
-                    <i class="fa"></i>
+                    <img class="logo-sm" src="./assets/img/logo-small.svg" alt="">
+                    <img class="home" src="./assets/img/home.svg" alt="">
+                    <img class="search" src="./assets/img/search.svg" alt="">
+                    <img class="library" src="./assets/img/libreria.svg" alt="">
                 </div>
                 <!-- /.top -->
                 <div class="bottom">
-                    <i class="fa"></i>
-                    <img src="" alt="">
+                    <img class="download" src="./assets/img/download.svg" alt="">
+                    <img class="profile" src="./assets/img/profile.svg" alt="">
                 </div>
                 <!-- /.bottom -->
             </div>
 
+            <div class="banner d-flex justify-end fixed  index align-item">
+                <a href="#" id="upgrade">EFFETTUA L'UPGRADE</a>
+            </div>
+
             <div class="right">
-                <div class="banner d-flex justify-end">
-                    <a href="#" id="upgrade">EFFETTUA L'UPGRADE</a>
-                </div>
+                
                 <div class="albums">
                     <div class="navbar d-flex justify-center flex-wrap">
                         <a href="#">IN EVIDENZA</a>
