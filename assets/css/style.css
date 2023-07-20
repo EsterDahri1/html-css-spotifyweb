@@ -14,6 +14,10 @@
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .justify-end{
     justify-content: end;
 }
@@ -26,6 +30,17 @@
     align-content: center;
 }
 
+.relative{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.p-5{
+    padding: 5px;
+}
 /*DEBUG*/
 
 .debug .wrapper{
@@ -63,8 +78,13 @@
     width: 230px;
 }
 
+.right{
+    overflow-y:scroll;
+    overflow-x: unset;
+}
+
 .center{
-    width: calc(100vw - 230px);
+    width: calc(100vw - 265px);
     height: 100vh;
 }
 
@@ -77,9 +97,35 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 30px;
-    padding: 30px 10px;
+    padding: 0 30px;
+    height: 50%;
+    line-height: 2.5;
+    text-decoration: none;
 }
 
 .wrapper a{
     text-transform: capitalize;
+}
+
+.navbar a{
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+img{
+    width:180px;
+    aspect-ratio: 1/1;
+}
+
+.p_artist img{
+    border-radius: 50%;
+}
+
+div [class^="col"]{
+    padding: 20px 15px;
+}
+
+h1, h4{
+    padding-left: 20px;
+    padding-top: 10px;
 }
