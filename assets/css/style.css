@@ -198,19 +198,65 @@ h4, h6{
 }
 .media_left{
     padding: 10px;
+    width:30%;
+}
+
+.media_center{
+    width: 40%;
+}
+
+.media_right{
+    width:30%;
+    justify-content: end;
 }
 
 #site_footer .media_left img{
-    width: 15%;
+    width: 35%;
     padding: 10px;
 }
 
 #site_footer .icons{
     padding:20px;
     color:var(--sp-medium);
-
 }
 
+#site_footer .commands i{
+    padding: 10px;
+    color:white;
+}
+
+
+.media_right i{
+    padding: 5px;
+    color: var(--sp-light)
+}
+
+.now, .end{
+    color:var(--sp-medium);
+}
+
+.bar{
+    border-radius:30px;
+    background-color: var(--sp-secondary);
+    height: 4px;
+    width: 150px;
+    margin: 10px;
+}
+
+.volume{
+    border-radius:30px;
+    background-color: var(--sp-secondary);
+    height: 4px;
+    width: 100px;
+    margin: 10px;
+}
+
+.beginning{
+    border-radius: 30px;
+    background-color: var(--sp-medium);
+    height: 4px;
+    width: 20%;
+}
 /*@media screen and (min-width: 576px) {
     #sidebar{
         width: 230px;

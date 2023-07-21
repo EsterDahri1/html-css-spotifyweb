@@ -38,12 +38,12 @@
                 
                 <div class="albums">
                     <div class="navbar d-flex justify-center flex-wrap">
-                        <a href="#">IN EVIDENZA</a>
-                        <a href="#">PODCAST</a>
-                        <a href="#">CLASSIFICHE</a>
-                        <a href="#">GENERI E MOOD</a>
-                        <a href="#">NUOVE USCITE</a>
-                        <a href="#">SCOPRI</a>
+                        <a href="#"><strong>IN EVIDENZA</strong></a>
+                        <a href="#"><strong>PODCAST</strong></a>
+                        <a href="#"><strong>CLASSIFICHE</strong></a>
+                        <a href="#"><strong>GENERI E MOOD</strong></a>
+                        <a href="#"><strong>NUOVE USCITE</strong></a>
+                        <a href="#"><strong>SCOPRI</strong></a>
                     </div>
         
                     <section class="r_played">
@@ -172,9 +172,31 @@
                 </div>
             </div>
             <!-- /.media_left -->
-            <div class="media_center"></div>
+            <div class="media_center d-flex f-column align-item">
+                <div class="commands d-flex align-item">
+                    <i class="fa-solid fa-shuffle fa-1x"></i>
+                    <i class="fa-solid fa-backward-step fa-1x"></i>
+                    <i class="fa-regular fa-circle-play fa-2x"></i>
+                    <i class="fa-solid fa-forward-step fa-1x"></i>
+                    <i class="fa-solid fa-rotate-right fa-1x"></i>
+                </div>
+                <div class="time d-flex align-item justify-between">
+                    <div class="now"><strong>0:25</strong></div>
+                    <div class="bar">
+                        <div class="beginning"></div>
+                    </div>
+                    <div class="end"><strong>4:35</strong></div>
+                </div>
+            </div>
             <!-- /.media_center -->
-            <div class="media_right"></div>
+            <div class="media_right d-flex align-item">
+                <i class="fa-solid fa-list fa-1x"></i>
+                <i class="fa-solid fa-desktop fa-1x"></i>
+                <i class="fa-solid fa-volume-high fa-1x"></i>
+                <div class="volume">
+                    <div class="beginning"></div>
+                </div>
+            </div>
             <!-- /.media_right -->
         </footer>
         <!-- /#site_footer -->
