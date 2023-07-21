@@ -196,9 +196,22 @@ h4, h6{
 .col-6{
     width: 50%;;
 }
+.media_left{
+    padding: 10px;
+}
 
+#site_footer .media_left img{
+    width: 15%;
+    padding: 10px;
+}
 
-@media screen and (min-width: 576px) {
+#site_footer .icons{
+    padding:20px;
+    color:var(--sp-medium);
+
+}
+
+/*@media screen and (min-width: 576px) {
     #sidebar{
         width: 230px;
     }
@@ -208,15 +221,11 @@ h4, h6{
         height: 100%;
     }
 
-    main .right{
-        width: calc(100% - 230px);
-    }
-}
-
+ 
 @media screen and (min-width: 768px) {
     
 }
 
 @media screen and (min-width: 1200px) {
     
-}
+} */
