@@ -168,11 +168,18 @@ main .right{
     color: var(--sp-secondary);
 }
 
+.navbar a:hover{
+    color:var(--sp-light)
+}
+
 img{
     width:100%;
     aspect-ratio: 1/1;
 }
 
+.card-body{
+    text-align: center;
+}
 .p_artist img{
     border-radius: 50%;
 }
@@ -181,17 +188,22 @@ div [class^="col-"]{
     padding: 10px 5px;
 }
 
-h1, h4{
+h1, h3{
     padding-left: 20px;
     padding-top: 10px;
 }
 
-h5, h1{
+h4, h1{
     color: var(--sp-light);
 }
 
-h4, h6{
+h3, h5{
     color: var(--sp-secondary)
+}
+
+h4{
+    padding-bottom: 10px;
+    line-height: 2;
 }
 .col-6{
     width: 50%;;
@@ -257,15 +269,13 @@ h4, h6{
     height: 4px;
     width: 20%;
 }
-/*@media screen and (min-width: 576px) {
+
+
+@media screen and (min-width: 576px) {
     #sidebar{
         width: 230px;
     }
-
-    #site_main{
-        width: calc(100% - 230px);
-        height: 100%;
-    }
+}
 
  
 @media screen and (min-width: 768px) {
@@ -274,4 +284,4 @@ h4, h6{
 
 @media screen and (min-width: 1200px) {
     
-} */
+} 
