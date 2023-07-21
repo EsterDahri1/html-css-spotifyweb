@@ -234,6 +234,10 @@ h4{
     justify-content: end;
 }
 
+.center{
+    display:none;
+}
+
 #site_footer .media_left img{
     width: 35%;
     padding: 10px;
@@ -304,6 +308,29 @@ h4{
     .banner{
         width: calc(100% - 185px);
         background-color: rgba(0, 0, 0, 0.492);
+    }
+
+    .center{
+        display:block;
+    }
+
+    .center h2{
+        color: var(--sp-light);
+    }
+
+    .center .addplaylist{
+        color: var(--sp-medium);
+    }
+
+    .center .newplaylist{
+        overflow-y: auto;
+        overflow-x: hidden;
+        min-height: 100px;
+    }
+
+    .center ul{
+        color: var(--sp-medium);
+        line-height: 2;
     }
 }
 
