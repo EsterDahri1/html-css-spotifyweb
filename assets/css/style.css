@@ -166,6 +166,10 @@ main .right{
     color:var(--sp-call-to-a);
 }
 
+span{
+    text-decoration: underline 4px greenyellow;
+}
+
 #logo{
     display: none;
 }
@@ -308,10 +312,30 @@ h4{
     .col-md-3{
         width:calc(100% / 12 * 3);
     }
+
+    .bar{
+        width: 250px;
+    }
+
+    .media_left .icons{
+        flex-direction: row;
+    }
+
+    .icons i{
+        padding-right: 1rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .col-lg-2{
         width: calc(100% / 12 * 2);
+    }
+
+    .bar{
+        width: 350px;
+    }
+
+    #site_footer .media_left img{
+        width: 20%;
     }
 } 
