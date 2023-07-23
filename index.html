@@ -21,14 +21,24 @@
                         <img id="logo-sm" class="logo-sm" src="./assets/img/logo-small.svg" alt="">
                         <img id="logo" src="./assets/img/logo.svg" alt="">
                     </div>
-                    <div class=""><img class="home" src="./assets/img/home.svg" alt=""></div>
-                    <div class=""><img class="search" src="./assets/img/search.svg" alt=""></div>
-                    <div class=""><img class="library" src="./assets/img/libreria.svg" alt=""></div>
+                    <div class="first d-flex align-item"> 
+                        <div class="select"></div>
+                        <img class="home" src="./assets/img/home.svg" alt="">
+                        <div class="explain"><strong>Home</strong></div>
+                    </div>
+                    <div class="second d-flex align-item">
+                        <img class="search" src="./assets/img/search.svg" alt="">
+                        <div class="explain"><strong>Cerca</strong></div>
+                    </div>
+                    <div class="third d-flex align-item">
+                        <img class="library" src="./assets/img/libreria.svg" alt="">
+                        <div class="explain"><strong>La tua libreria</strong></div>
+                    </div>
                 </div>
                 <div class="center">
                     <h2>PLAYLIST</h2>
-                    <div class="addplaylist d-flex">
-                        <i class="fa-solid fa-square-plus"></i>
+                    <div class="addplaylist d-flex align-item">
+                        <i class="fa-solid fa-square-plus fa-3x"></i>
                         Crea la playlist 
                     </div>
                    <div class="newplaylist">
@@ -61,9 +71,15 @@
                 <!-- /.center -->
                 <!-- /.top -->
                
-                <div class="bottom">
-                    <img class="download" src="./assets/img/download.svg" alt="">
-                    <img class="profile" src="./assets/img/profile.svg" alt="">
+                <div class="bottom d-flex f-column align-item">
+                    <div class="down d-flex align-item">
+                        <img class="download" src="./assets/img/download.svg" alt="">
+                        <div class="explain"><strong>Installa app</strong></div>
+                    </div>
+                    <div class="d-flex align-item">
+                        <img class="profile" src="./assets/img/profile.svg" alt="">
+                        <div class="explain"><strong>John Doe</strong></div>
+                    </div>
                 </div>
                 <!-- /.bottom -->
             </div>
@@ -197,7 +213,7 @@
             <div class="media_left d-flex align-item">
                 <img width="20px" src="./assets/img/sinister.jpeg" alt="sinister album">
                 <div class="info">
-                    <h5>Sinister</h5>
+                    <h4>Sinister</h4>
                     <h5>Nome Brano</h5>
                 </div>
                 <div class="icons d-flex f-column align-center">

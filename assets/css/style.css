@@ -160,6 +160,10 @@ main .right{
     text-decoration: none;
 }
 
+#upgrade:hover{
+    transform: scale(1.1);
+}
+
 .wrapper a{
     text-transform: capitalize;
     text-decoration: none;
@@ -286,6 +290,22 @@ h4{
     width: 20%;
 }
 
+.beginning:hover {
+    background-color: greenyellow;
+}
+
+.info h4{
+    line-height: 0;
+}
+
+.info:hover h5{
+    color: var(--sp-light);
+    text-decoration: underline;
+}
+
+.explain{
+    display:none;
+}
 
 @media screen and (min-width: 576px) {
     #sidebar{
@@ -299,10 +319,12 @@ h4{
     #sidebar #logo {
             display: block;
             color: var(--sp-light);
+            margin-top: -20px;
+            width: 70%;
         }
 
     #sidebar img{
-        width:30%;
+        width:20%;
     }
 
     .banner{
@@ -312,6 +334,7 @@ h4{
 
     .center{
         display:block;
+        margin-top: -100px;
     }
 
     .center h2{
@@ -332,6 +355,33 @@ h4{
         color: var(--sp-medium);
         line-height: 2;
     }
+
+    .addplaylist i{
+        padding-right: 10px;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .bottom .down{
+        border-bottom: var(--sp-medium) 2px solid;
+        margin-bottom: 10px;
+    }
+
+    .first{
+        color: var(--sp-light);
+    }
+
+    .explain{
+        display: block;
+        color: var(--sp-medium);
+        padding-left: 10px;
+    }
+
+    .explain:hover{
+        color: var(--sp-light);
+    }
 }
 
  
@@ -351,6 +401,14 @@ h4{
     .icons i{
         padding-right: 1rem;
     }
+
+    .icons i:hover{
+        color: var(--sp-light);
+    }
+
+    .center{
+        margin-top: -80px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -364,5 +422,9 @@ h4{
 
     #site_footer .media_left img{
         width: 20%;
+    }
+
+    .center{
+        margin-top: -10px;
     }
 } 
