@@ -196,6 +196,35 @@ img{
 .card-body{
     text-align: center;
 }
+
+.container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: var(--sp-call-to-a);
+    cursor: pointer;
+}
+
+.content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--sp-light);
+}
+
+.card:hover .overlay{
+    opacity: 0.8;
+}
+
 .p_artist img{
     border-radius: 50%;
 }
@@ -231,6 +260,10 @@ h4{
 
 .media_center{
     width: 40%;
+}
+
+#play:hover{
+    transform: scale(1.1);
 }
 
 .media_right{
@@ -351,6 +384,14 @@ h4{
         min-height: 100px;
     }
 
+    .addplaylist:hover{
+        color:var(--sp-light);
+    }
+
+    .newplaylist li:hover{
+        color:var(--sp-light);
+    }
+
     .center ul{
         color: var(--sp-medium);
         line-height: 2;
@@ -371,6 +412,12 @@ h4{
 
     .first{
         color: var(--sp-light);
+    }
+
+    .select{
+        background-color: greenyellow;
+        height: 37px;
+        color: greenyellow;
     }
 
     .explain{
